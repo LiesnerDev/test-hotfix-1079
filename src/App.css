@@ -1,0 +1,38 @@
+.app-container {
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+header {
+  background-color: #007ACC;
+  color: white;
+  padding: 20px;
+}
+.header-actions {
+  margin-top: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 15px;
+}
+button {
+  padding: 8px 12px;
+  border: none;
+  background-color: #005A9E;
+  color: white;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #004578;
+}
+main .content {
+  display: flex;
+  margin-top: 20px;
+  gap: 20px;
+}
+.details-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}

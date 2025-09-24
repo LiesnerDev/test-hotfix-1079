@@ -1,0 +1,26 @@
+.form-list {
+  width: 300px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  background-color: #f9f9f9;
+}
+
+.form-list h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.form-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.form-list li {
+  padding: 8px;
+  cursor: pointer;
+  border-bottom: 1px solid #ddd;
+}
+
+.form-list li:hover {
+  background-color: #e9e9e9;
+}
